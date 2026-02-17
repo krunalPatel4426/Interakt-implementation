@@ -147,6 +147,3 @@ A: The messages will remain stuck in `PROCESSING`.
 **Q: Can I increase the speed?**
 A: Yes. In the service, increase the concurrency limit in `.flatMap(..., 100)` and the batch size in `.bufferTimeout(100, ...)` if your Interakt plan allows it.
 
-```
-
-```
