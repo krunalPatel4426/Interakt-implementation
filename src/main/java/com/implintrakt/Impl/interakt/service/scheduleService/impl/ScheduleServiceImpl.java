@@ -88,6 +88,7 @@ public class ScheduleServiceImpl implements ScheduleService {
                                 scheduledMessage.setScheduleTime(requestDto.getScheduledTime());
                                 scheduledMessage.setStatus(Constant.INTERAKT_STATUS_PENDING);
 //                                dynamicTriggerService.scheduleWakeUpCall(requestDto.getScheduledTime());
+
                                 return scheduledMessage;
                             }).toList();
 
